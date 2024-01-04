@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Authenticate from "./authenticate";
-import SignUpForm from "./signupform";
+import Authenticate from "./components/Authenticate";
+import SignUpForm from "./components/SignUpForm";
 
 export default function App() {
   const [token, setToken] = useState(null);
